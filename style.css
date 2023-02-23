@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #dc4123;
+}
+.navbar-brand {
+  font-family: "Major Mono Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+
+  color: #000000;
+}
