@@ -46,6 +46,8 @@ p {
   font-size: 20px;
   line-height: 35px;
   color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 img {
   border-radius: 34px;
@@ -67,6 +69,7 @@ button {
   padding: 10px;
   display: block;
   margin: auto;
+  margin-top: 20px;
 }
 hr {
   margin-top: 140px;
