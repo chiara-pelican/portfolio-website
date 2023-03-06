@@ -68,10 +68,16 @@ p {
   color: #000000;
   margin-top: 20px;
 }
+
 img {
   border-radius: 34px;
   max-width: 100%;
 }
+
+.photo-profile {
+  clip-path: circle(50% at 50% 50%);
+}
+
 .container {
   margin-top: 150px;
 }
