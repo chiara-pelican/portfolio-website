@@ -109,6 +109,7 @@ img {
 }
 .page-icon:hover {
   color: var(--primary-color);
+  text-decoration: none;
 }
 button {
   font-family: "Bodoni Moda";
