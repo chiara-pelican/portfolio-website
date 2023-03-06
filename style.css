@@ -6,9 +6,11 @@ body {
   margin: 0;
   max-width: auto;
 }
-
+.container {
+  margin-top: 150px;
+}
 .navbar-custom {
-  background-color: white;
+  background-color: black;
   box-shadow: var(--box-shadow);
 }
 .navbar-brand {
@@ -34,9 +36,7 @@ h1 {
   font-size: 40px;
   line-height: 61px;
   text-transform: uppercase;
-
   color: #dc4123;
-
   mix-blend-mode: darken;
 }
 h2 {
@@ -46,18 +46,33 @@ h2 {
   font-size: 25px;
   line-height: 61px;
   text-transform: uppercase;
-
   color: #dc4123;
-
   mix-blend-mode: darken;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.title-research {
+  margin-top: 30px;
 }
 h4 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 100;
   font-size: 20px;
-
   color: rgba(0, 0, 0, 0.8);
+}
+.contact-text {
+  margin-top: 30px;
+}
+h6 {
+  font-family: "roboto";
+  font-style: normal;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0;
 }
 p,
 .email {
@@ -80,71 +95,81 @@ img {
   border-radius: 34px;
   max-width: 100%;
 }
-
 .photo-profile {
   clip-path: circle(50% at 50% 50%);
 }
 .photo-contact {
   max-height: 80%;
 }
-
 .photo-research {
   max-height: 70%;
 }
-.container {
-  margin-top: 150px;
+.page-icon {
+  color: white;
+}
+.page-icon:hover {
+  color: var(--primary-color);
 }
 button {
   font-family: "Bodoni Moda";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  color: white;
-  background-color: var(--primary-color);
-  border: none;
   text-transform: uppercase;
+  border: none;
+  transition: 100ms ease-in-out;
 }
 .button-icon {
   border-radius: 100%;
-
   display: inline;
   margin: auto;
   margin-right: 10px;
   margin-top: 10px;
   color: white;
+  background-color: var(--primary-color);
 }
-a {
-  color: white;
-}
-a:hover {
-  text-decoration: none;
-  color: white;
+.button-icon:hover {
+  background-color: white;
 }
 .button-text {
   border-radius: 34px;
+  border-width: 2px;
   padding: 10px 20px;
   display: block;
   margin: auto;
+  color: white;
+  background-color: var(--primary-color);
+}
+.button-text:hover {
+  color: var(--primary-color);
+  background-color: white;
 }
 
-hr {
-  margin-top: 140px;
+footer .github-page {
+  color: var(--primary-color);
 }
-.footer {
-  font-family: "roboto";
-  font-style: normal;
-  font-size: 10px;
+
+footer .footer-buttons {
+  border-radius: 100%;
+  display: inline;
+  margin: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: var(--primary-color);
+  background-color: white;
+  transition: 100ms ease-in-out;
+}
+footer .footer-buttons:hover {
+  background-color: var(--primary-color);
+}
+footer .footer-icon {
+  color: var(--primary-color);
+}
+footer .footer-icon:hover {
+  color: white;
+}
+footer {
+  margin-top: 150px;
+  border-top: 1px;
   text-align: center;
-  margin-bottom: 0;
-}
-.title {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 100px;
-}
-.contact-text {
-  margin-top: 30px;
-}
-.title-research {
-  margin-top: 30px;
 }
